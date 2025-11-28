@@ -13,7 +13,7 @@ const Portfolio = () => {
 
       <section>
         <h2>Contact</h2>
-        <p><strong>Phone:</strong> 8217308812</p>
+        <p><strong>Phone:</strong> +91 8217308812</p>
         <p><strong>Email:</strong> spoorthicd925@gmail.com</p>
         <p><strong>Location:</strong> Hassan, Karnataka</p>
       </section>
@@ -21,7 +21,7 @@ const Portfolio = () => {
       <section>
         <h2>Education</h2>
         <p><strong>B.E. in Computer Science and Engineering</strong><br />
-        Malnad College of Engineering, VTU (2022 – Present) – CGPA: 8.61</p>
+        Malnad College of Engineering, VTU (2022 – Present) – CGPA: 8.67</p>
         <p><strong>12th Grade (PUC)</strong><br />
         Master PU College, Hassan – 87.17%</p>
         <p><strong>10th Grade (SSLC)</strong><br />
@@ -31,22 +31,40 @@ const Portfolio = () => {
       <section>
         <h2>Technical Skills</h2>
         <ul>
-          <li>Languages: C, Python, JavaScript</li>
+          <li>Languages: C, Python, Java</li>
           <li>Web Development: HTML, CSS, JavaScript</li>
-          <li>Core Subjects: Data Structures & Algorithms (DSA), DBMS</li>
+          <li>Core Subjects: Data Structures & Algorithms (DSA), mysql</li>
         </ul>
       </section>
 
       <section>
         <h2>Projects</h2>
+        <h3>Farm2Home – Connecting Farmers Directly with Customers</h3>
         <ul>
-          <li><strong>Farm2Home:</strong> E-commerce site connecting farmers directly with customers.</li>
-          <li><strong>Ovarian Cancer Detection (Ongoing):</strong> ML project using SVM, RF, CNN.</li>
-          <li><strong>Spam/Ham Classification:</strong> Naive Bayes with 96% accuracy using NLP.</li>
-          <li><strong>Movie Recommendation System:</strong> Collaborative Filtering with MovieLens data.</li>
+          <li>Developed a responsive website to connect farmers directly with customers, reducing dependency on intermediaries.Built using HTML, CSS, JavaScript with backend integration.</li>
+          <li>Served as Team Lead.</li>
         </ul>
-      </section>
 
+         <h3>SiloDispatch – Smart Last-Mile Logistics Platform</h3>
+    <ul>
+      <li>Backend dispatch system using FastAPI & PostgreSQL.Implemented K-Means clustering for order grouping.</li>
+      <li>Added OTP-based delivery verification using Twilio.Enabled real-time COD tracking.</li>
+    </ul>
+  
+      </section>
+      <section>
+        <h2> ongoing Projects</h2>
+         <ul>
+      <li>
+        <strong>Ovarian Cancer Detection using ML Techniques</strong> —
+        Early diagnosis using Fuzzy Gabor filter, t-SNE, and ResNet models.
+      </li>
+      <li>
+        <strong>Alarm Fault Identification – Industry Project</strong> —
+        Pattern identification and dataset study to detect abnormal system alarms.
+      </li>
+    </ul>
+      </section>
       <section>
         <h2>Internship & Training</h2>
         <p>Completed <strong>"Artificial Intelligence with Python"</strong> by Acmegrade</p>
@@ -62,7 +80,7 @@ const Portfolio = () => {
         <h2>Additional Information</h2>
         <ul>
           <li>Team Lead – College Mini Project (2025)</li>
-          <li>Volunteer – Local Nonprofit Organization</li>
+          <li>Treasurer – Local Nonprofit Organization</li>
         </ul>
       </section>
 
